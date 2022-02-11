@@ -1,14 +1,14 @@
 create table student(name varchar(20),roll int);
 insert into student values('ram',4);
-update student set name = 'raj' where roll = 4;
+update student set name = 'Mehta' where roll = 4;
 alter table student add id int;
-delete from student where name = 'raj';
+delete from student where name = 'Mehta';
 select *from student;
 
 
-select *from student where name ='ram',and roll=4;
-select *from student where name ='ram' or name='senky';
-select *from student where not name ='ram';
+select *from student where name ='Ashish',and roll=4;
+select *from student where name ='Ashish' or name='Aayush';
+select *from student where not name ='Ashish';
 select *from student where roll between 3 and 5;
 select *from student where name like '%a';
 
